@@ -69,7 +69,7 @@ Our work demonstrates that **smaller, optimized models** like SmolVLM can achiev
 
 
 ## About Me  
-I am a Master’s student in **Engineering & Artificial Intelligence** at **ECE Paris**, currently completing my final year at the **Technion – Israel Institute of Technology (AIM Lab)**.  
+I am a Master’s student in **Engineering & Artificial Intelligence** at **Ecole Centrale d'Electronique - ECE Paris**, currently completing my final year at the **Technion – Israel Institute of Technology (AIM Lab)**.  
 
 **Focus areas:**  
 - Vision-Language Models (VLMs) and Multimodal AI  
