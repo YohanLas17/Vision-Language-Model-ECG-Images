@@ -12,7 +12,7 @@ The work builds upon the [PULSE benchmark](https://arxiv.org/abs/2410.19008) and
 - Benchmark performance against **state-of-the-art proprietary and open-source models** (PULSE-7B, GPT-4o, Gemini, Claude).  
 - Focus on the **ECGBench benchmark**, particularly the **CODE15 dataset**, using metrics such as **F1-score, AUC, Hamming Loss (HL)**, and **ANLS**.
 
-<img src="images/pulse1.jpg" alt="ECG Example 1" width="600"/>
+![ECG Example 1](images/pulse1.jpg)
 
 
 ## Results – CODE15 (In-Domain)
@@ -46,7 +46,7 @@ Our **SmolVLM-256M** performs in the upper range of open-source models while rem
 
 
 ### Example 2 – Diagnostic Report  
-<img src="images/example2.png" alt="ECG Example 1" width="600"/>
+<img src="images/example2.png" alt="ECG Example 1" width="500"/>
 
 
 **Prompt:**  
@@ -56,7 +56,7 @@ Our **SmolVLM-256M** performs in the upper range of open-source models while rem
 
 
 ### Example 3 – Incorrect Prediction  
-<img src="images/example3.png" alt="ECG Example 1" width="600"/>
+<img src="images/example3.png" alt="ECG Example 1" width="500"/>
 
 
 **Prompt:**  
