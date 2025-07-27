@@ -1,0 +1,31 @@
+model_class: Models.BaselineModel.BaselineVLModel
+resolution: 224 # Check if remove
+max_length: 512
+
+root_dir: /workspace/repos/Databases #/oriondata/AIMLab/Yohan/Databases
+evaluation_strategy: steps
+save_strategy: steps
+eval_steps: 200
+save_steps: 200
+load_best_model_at_end: true
+metric_for_best_model: ANLS
+train_datasets: [PULSE]
+val_datasets: [PULSE_VAL]
+test_datasets: [PULSE_TEST]
+val_dataset_limit: 100
+#output_dir: /workspace/repos/DocMLLM_repo/weights/baseline
+json_filename: data.json
+#attn_implementation: eager
+#attn_implementation: flash_attention_2
+report_to: ["tensorboard"]
+bf16: true
+fp16: false
+ddp_find_unused_parameters: false
+torch_dtype: bfloat16
+low_cpu_mem_usage: true
+device_map: auto
+
+
+model_pretrained: "HuggingFaceTB/SmolVLM-256M-Instruct" #"HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+#prediction_path_save: "preds_lesion/lesion_swinv2-tiny-patch4-window8-256"
+#load_weights_from: "lesion_checkpoints/lesion/baseline_lesion/checkpoint-5665/model.safetensors"

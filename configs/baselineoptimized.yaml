@@ -1,0 +1,24 @@
+model_class: Models.BaselineModel.BaselineVLModel
+resolution: 224
+max_length: 512
+
+root_dir: /workspace/repos/Databases  # /oriondata/AIMLab/Yohan/Databases
+
+train_datasets: [PULSE]
+val_datasets: [PULSE_VAL]
+test_datasets: [PULSE_TEST]
+val_dataset_limit: 100
+#attn_implementation: sdpa
+attn_implementation: eager
+
+#json_filename: data.json
+json_filename: data.json
+
+model_pretrained: "HuggingFaceTB/SmolVLM-256M-Instruct"
+
+training_args:
+  report_to: ["tensorboard"]
+  logging_dir: checkpoints/baselineoptimized/runs
+  logging_strategy: steps
+  logging_steps: 20
+  dataloader_pin_memory: true

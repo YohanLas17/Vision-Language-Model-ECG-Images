@@ -1,0 +1,13 @@
+model_class: Models.BaselineModel.BaselineVLModel
+resolution: 224 # Check if remove
+max_length: 512
+
+root_dir: ../Databases
+
+train_datasets: [PULSE]
+val_datasets: [PULSE]
+test_datasets: [PULSE]
+
+model_pretrained: "HuggingFaceTB/SmolVLM2-2.2B-Instruct"
+#prediction_path_save: "preds_lesion/lesion_swinv2-tiny-patch4-window8-256"
+#load_weights_from: "lesion_checkpoints/lesion/baseline_lesion/checkpoint-5665/model.safetensors"
