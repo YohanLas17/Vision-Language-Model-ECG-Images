@@ -12,7 +12,7 @@ The work builds upon the [PULSE benchmark](https://arxiv.org/abs/2410.19008) and
 - Benchmark performance against **state-of-the-art proprietary and open-source models** (PULSE-7B, GPT-4o, Gemini, Claude).  
 - Focus on the **ECGBench benchmark**, particularly the **CODE15 dataset**, using metrics such as **F1-score, AUC, Hamming Loss (HL)**, and **ANLS**.
 
-![ECG pulse1](images/pulse1.jpg)
+<img src="images/pulse1.jpg" alt="ECG Example 1" width="600"/>
 
 
 ## Results – CODE15 (In-Domain)
@@ -37,7 +37,7 @@ Our **SmolVLM-256M** performs in the upper range of open-source models while rem
 ## Sample Predictions (CODE15)
 
 ### Example 1 – Correct Prediction  
-![ECG Example 1](images/example1.png)
+<img src="images/example1.png" alt="ECG Example 1" width="600"/>
 
 **Prompt:**  
 *The ECG image above belongs to a 54-year-old patient. Identify the cardiac rhythm and classify whether it is NORMAL or ABNORMAL.*  
@@ -46,7 +46,8 @@ Our **SmolVLM-256M** performs in the upper range of open-source models while rem
 
 
 ### Example 2 – Diagnostic Report  
-![ECG Example 2](images/example2.png)
+<img src="images/example2.png" alt="ECG Example 1" width="600"/>
+
 
 **Prompt:**  
 *Evaluate the ECG and write a comprehensive diagnostic report.*  
@@ -55,7 +56,8 @@ Our **SmolVLM-256M** performs in the upper range of open-source models while rem
 
 
 ### Example 3 – Incorrect Prediction  
-![ECG Example 3](images/example3.png)
+<img src="images/example3.png" alt="ECG Example 1" width="600"/>
+
 
 **Prompt:**  
 *Classify the ECG condition (NORMAL or ABNORMAL) and specify the rhythm.*  
