@@ -12,6 +12,8 @@ The work builds upon the [PULSE benchmark](https://arxiv.org/abs/2410.19008) and
 - Benchmark performance against **state-of-the-art proprietary and open-source models** (PULSE-7B, GPT-4o, Gemini, Claude).  
 - Focus on the **ECGBench benchmark**, particularly the **CODE15 dataset**, using metrics such as **F1-score, AUC, Hamming Loss (HL)**, and **ANLS**.
 
+![ECG pulse1](images/pulse1.png)
+
 
 ## Results – CODE15 (In-Domain)
 
