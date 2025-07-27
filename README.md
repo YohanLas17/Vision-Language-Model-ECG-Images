@@ -1,5 +1,5 @@
 # Vision-Language Model for ECG Diagnostics  
-**Master Research Project – Technion, Israel Institute of Technology (AIM Lab)**  
+**Master's Research – Technion, Israel Institute of Technology (AIM Lab)**  
 
 
 ## Project Overview  
