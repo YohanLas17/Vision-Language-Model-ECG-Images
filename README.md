@@ -15,7 +15,7 @@ The work builds upon the [PULSE benchmark](https://arxiv.org/abs/2410.19008) and
 ![ECG Example 1](images/pulse1.jpg)
 
 
-## Results – CODE15 (In-Domain)
+## Results – CODE15% (In-Domain)
 
 | Model                   | F1    | AUC   | HL    |
 |-------------------------|-------|-------|-------|
