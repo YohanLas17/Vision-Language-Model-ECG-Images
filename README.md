@@ -1,10 +1,17 @@
 # Vision-Language Model for ECG Diagnostics  
 **Master's Research – Technion, Israel Institute of Technology (AIM Lab)**  
+Supervised by Assoc. Prof. Joachim Behar (Head of AIMLab) and Jonathan Fhima (PhD Candidate, AIMLab)
+
+
+## Why This Project  
+ECG interpretation still depends on clinical expertise that isn't always available — especially in emergencies or resource-limited settings. Large proprietary models (GPT-4o, Claude, Gemini) and specialized 7B+ models can read ECG images, but they're costly to run and hard to deploy at the point of care. This project asks a narrower question: how far can a small, open, deployable VLM (256M parameters) get on real ECG interpretation tasks — and where does it fall short?
 
 
 ## Project Overview  
-This repository presents my **Master’s research project** on **Vision-Language Models (VLMs)** applied to **electrocardiogram (ECG) diagnostics**.  
+This repository presents my **Master's research project** on **Vision-Language Models (VLMs)** applied to **electrocardiogram (ECG) diagnostics**.  
 The work builds upon the [PULSE benchmark](https://arxiv.org/abs/2410.19008) and evaluates **SmolVLM-256M-Instruct**, a lightweight open-source VLM fine-tuned for ECG reasoning and classification tasks.
+
+[Read the full thesis →](https://drive.google.com/file/d/1GGFiGUNm6r6d0HykMcq3ASjjnacjwViQ/view?usp=sharing)
 
 
 ## Objectives  
@@ -71,7 +78,7 @@ Our work demonstrates that **smaller, optimized models** like SmolVLM can achiev
 
 
 ## About Me  
-I am a Master’s student in **Engineering & Artificial Intelligence** at **Ecole Centrale d'Electronique - ECE Paris**, currently completing my final year at the **Technion – Israel Institute of Technology (AIM Lab)**.  
+I am a Master's student in **Engineering & Artificial Intelligence** at **Ecole Centrale d'Electronique - ECE Paris**, currently completing my final year at the **Technion – Israel Institute of Technology (AIM Lab)**.  
 
 **Focus areas:**  
 - Vision-Language Models (VLMs) and Multimodal AI  
@@ -81,4 +88,4 @@ I am a Master’s student in **Engineering & Artificial Intelligence** at **Ecol
 
 ## References  
 - **PULSE:** [PULSE: A Unified Benchmark for ECG Reasoning with VLMs](https://arxiv.org/abs/2410.19008)  
-- **SmolVLM:** SmolVLM-256M-Instruct – Hugging Face  
+- **SmolVLM:** SmolVLM-256M-Instruct – Hugging Face
