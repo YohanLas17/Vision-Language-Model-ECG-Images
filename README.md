@@ -33,7 +33,6 @@ The work builds upon the [PULSE benchmark](https://arxiv.org/abs/2410.19008) and
 | **PULSE-7B**            | **85.4** | **90.7** | **5.0**  |
 | **SmolVLM-256M (Ours)** | 27.5  | 65.3  | 16.5  |
 
-**ANLS (SmolVLM-256M):** 68.7
 
 **Key Insight:**  
 Our **SmolVLM-256M** performs in the upper range of open-source models while remaining **lightweight and efficient**.  
