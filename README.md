@@ -17,7 +17,7 @@ The work builds upon the [PULSE benchmark](https://arxiv.org/abs/2410.19008) and
 ## Objectives  
 - Fine-tune **SmolVLM-256M-Instruct (256M parameters)** for ECG-specific reasoning tasks.  
 - Benchmark performance against **state-of-the-art proprietary and open-source models** (PULSE-7B, GPT-4o, Gemini, Claude).  
-- Focus on the **ECGBench benchmark**, particularly the **CODE15 dataset**, using metrics such as **F1-score, AUC, Hamming Loss (HL)**, and **ANLS**.
+- Focus on the **ECGBench benchmark**, particularly the **CODE15 dataset**, using metrics such as **F1-score, AUC, Hamming Loss (HL)**.
 
 ![ECG Example 1](images/pulse1.jpg)
 
@@ -30,7 +30,6 @@ The work builds upon the [PULSE benchmark](https://arxiv.org/abs/2410.19008) and
 | Gemini 1.5 Pro          | 20.0  | 56.7  | 15.9  |
 | Claude 3.5 Sonnet       | 20.3  | 58.3  | 17.8  |
 | LLaVA-Med               | 27.0  | 69.2  | 33.4  |
-| MiniCPM-V-2.6           | 25.3  | 56.6  | 22.0  |
 | **PULSE-7B**            | **85.4** | **90.7** | **5.0**  |
 | **SmolVLM-256M (Ours)** | 27.5  | 65.3  | 16.5  |
 
@@ -77,8 +76,12 @@ This project draws inspiration from the **PULSE benchmark**, which sets a new st
 Our work demonstrates that **smaller, optimized models** like SmolVLM can achieve competitive results with targeted fine-tuning.
 
 
-## About Me  
-I am a Master's student in **Engineering & Artificial Intelligence** at **Ecole Centrale d'Electronique - ECE Paris**, currently completing my final year at the **Technion – Israel Institute of Technology (AIM Lab)**.  
+## About Me
+I hold a Master of Engineering in Computer Science — Diplôme d'Ingénieur 
+from École Centrale d'Électronique (ECE Paris), and completed a Graduate 
+Visiting Program (Master 2) in Data Science (Research Track) at the 
+Technion – Israel Institute of Technology, where this research was 
+conducted at the AI in Medicine Laboratory (AIMLab).
 
 **Focus areas:**  
 - Vision-Language Models (VLMs) and Multimodal AI  
@@ -89,3 +92,4 @@ I am a Master's student in **Engineering & Artificial Intelligence** at **Ecole 
 ## References  
 - **PULSE:** [PULSE: A Unified Benchmark for ECG Reasoning with VLMs](https://arxiv.org/abs/2410.19008)  
 - **SmolVLM:** SmolVLM-256M-Instruct – Hugging Face
+- **Lab:** AI in Medicine Laboratory (AIMLab), Technion – https://www.aimlab-technion.com
